@@ -1,0 +1,87 @@
+/* Style général */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Entête */
+#entete {
+  background-color: #800000;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#entete img {
+  height: 60px;
+  vertical-align: middle;
+}
+
+#entete h1 {
+  margin: 10px 0 5px 0;
+  font-size: 2.5em;
+}
+
+#entete h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Menu de navigation */
+#menu {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
+
+/* Contenu principal */
+#bloc {
+  padding: 20px;
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bloc h2 {
+  color: #800000;
+}
+
+#bloc a {
+  color: #800000;
+  text-decoration: none;
+}
+
+#bloc a:hover {
+  text-decoration: underline;
+}
+
+/* Pied de page */
+#footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
+
+#footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}

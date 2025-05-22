@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demande de Catalogue - SFCV</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+  <div class="container">
+    
+    <!-- En-tête -->
+    <div id="entete">
+      <img src="images/logo.png" alt="logo"> 
+      <h1>SFCV</h1>
+      <h3>N°1 des caves à vins</h3>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+      <a href="Accueil.html">Accueil</a>
+      <a href="produit.html">Produits</a>
+      <a href="contact.html">Contact</a>
+      <a href="services.html">Services</a>
+    </div>
+
+    <!-- Introduction -->
+    <h2>Demande de catalogue</h2>
+    <p>Demandez vite notre catalogue gratuit !<br>Il vous sera livré dans les meilleurs délais.</p>
+
+    <!-- Formulaire -->
+    <form action="mailto:info@sfcv.com" method="post" enctype="text/plain" name="demande" id="demande">
+      <div>
+        <label for="civilite">Civilité</label>
+        <select id="civilite" name="civilite">
+          <option value="1" selected>Monsieur</option>
+          <option value="2">Madame</option>
+          <option value="3">Dinosaure</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+
+      <div>
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" required>
+      </div>
+
+      <div>
+        <label for="adresse">Adresse</label>
+        <input type="text" id="adresse" name="adresse" required>
+      </div>
+
+      <div>
+        <label for="ville">Ville</label>
+        <input type="text" id="ville" name="ville" required>
+      </div>
+
+      <div>
+        <label for="codepostal">Code Postal</label>
+        <input type="text" id="codepostal" name="codepostal" required>
+      </div>
+
+      <div>
+        <label for="email">Courriel</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <input type="checkbox" id="newslettre" name="newslettre" value="oui">
+        <label for="newslettre">Je souhaite recevoir la newsletter</label>
+      </div>
+
+      <input type="hidden" name="action" value="Envoyer">
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Ce site a fait l’objet d’une déclaration auprès de la Commission Nationale Informatique et des Libertés (CNIL).</p>
+      <p>Conformément aux dispositions de la loi Informatique et libertés du 06/01/1978, vous disposez d’un droit de modification, de rectification et d’opposition/suppression des données vous concernant par simple demande à : info@sfcv.com</p>
+      <hr>
+      <p>N’hésitez pas à prendre contact avec l’équipe SFCV. Nous répondrons à toutes vos questions sur l’aménagement de votre cave ou le choix de votre armoire à vin.</p>
+      <hr>
+      <p>© SFCV - <a href="mentions.html">Mentions légales</a></p>
+      <p><strong>L’abus d’alcool est dangereux pour la santé, à consommer avec modération.</strong></p>
+    </div>
+
+  </div>
+</body>
+</html>

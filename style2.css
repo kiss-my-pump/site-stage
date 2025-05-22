@@ -1,0 +1,177 @@
+/* Style de base pour la page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Entête */
+#entete {
+  text-align: center;
+  background-color: #2e3b4e;
+  color: #fff;
+  padding: 40px 0;
+}
+
+#entete img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#entete h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#entete h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Menu */
+#menu {
+  background-color: #333;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+#menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#menu ul li {
+  margin: 0 20px;
+}
+
+#menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#menu ul li a:hover {
+  color: #ff7043;
+}
+
+/* Section principale */
+#bloc {
+  margin-top: 40px;
+}
+
+#bloc h2 {
+  font-size: 28px;
+  color: #2e3b4e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+table td img {
+  max-width: 200px;
+  margin-right: 15px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+table td[colspan="4"] {
+  text-align: left;
+}
+
+table td[colspan="2"], table td {
+  text-align: center;
+}
+
+#bloc a {
+  display: inline-block;
+  background-color: #2e3b4e;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+#bloc a:hover {
+  background-color: #ff7043;
+}
+
+/* Pied de page */
+hr {
+  border: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+#pied {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+#pied a {
+  color: #333;
+  text-decoration: none;
+}
+
+#pied a:hover {
+  color: #ff7043;
+}
+
+/* Responsive pour petits écrans */
+@media (max-width: 768px) {
+  #menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #menu ul li {
+    margin-bottom: 10px;
+  }
+
+  table td {
+    padding: 8px;
+  }
+
+  #entete h1 {
+    font-size: 30px;
+  }
+
+  #entete h3 {
+    font-size: 18px;
+  }
+
+  table td img {
+    max-width: 150px;
+  }
+}
